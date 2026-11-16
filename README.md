@@ -100,7 +100,7 @@ California Housing dataset, derived from the 1990 US Census (also available on [
 
 ## Working Model
 
-| [Deployed App][(https://github.com/Deepak180607/Housing-Price-Predictor](https://housing-price-predictor-5d5dpt3krxqmkdhu4rnrh5.streamlit.app/)) |
+| (https://housing-price-predictor-5d5dpt3krxqmkdhu4rnrh5.streamlit.app/) |
 
 ## Author
 

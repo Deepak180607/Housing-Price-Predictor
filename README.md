@@ -98,6 +98,11 @@ Python · pandas · NumPy · scikit-learn · Plotly · Streamlit · joblib
 
 California Housing dataset, derived from the 1990 US Census (also available on [Kaggle](https://www.kaggle.com/datasets/camnugent/california-housing-prices)).
 
+## Working Model
+
+| [Deployed App][(https://github.com/Deepak180607/Housing-Price-Predictor](https://housing-price-predictor-5d5dpt3krxqmkdhu4rnrh5.streamlit.app/)) |
+
 ## Author
 
 **Deepak**: B.Tech Data Science, ITER, SOA University
+

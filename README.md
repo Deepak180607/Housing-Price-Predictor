@@ -1,6 +1,12 @@
 # 🏠 California House Price Predictor
 
-A machine learning project that predicts the **median house value of a California census block group** from neighbourhood features such as income, location, and housing characteristics. Includes a full modelling notebook and an interactive **Streamlit** web app.
+A machine learning project that predicts the **median house value of a California census block group** from neighbourhood features such as income, location, and housing characteristics. Includes a full modelling notebook and an interactive **Streamlit dashboard** with live predictions, data exploration and model diagnostics.
+
+## App features
+
+- **🔮 Predict:** live price estimate with a likely range, where it sits in the California price distribution, a "what if" curve showing how the price changes as one input changes, and a map of the location.
+- **📊 Explore the data:** price and income maps, distributions, house value by ocean proximity, income vs price, and a correlation heatmap.
+- **🎯 Model performance:** test-set RMSE / MAE / R², actual vs predicted, error distribution, an error map, error by region, and feature importance.
 
 🔗 **Live demo:** _add your Streamlit link here after deploying_
 
@@ -59,10 +65,14 @@ _Replace the TODO values with the numbers from your notebook. Test metrics shoul
 
 ```
 .
-├── app.py                 # Streamlit app
-├── features.py            # Feature engineering (used by the notebook and the app)
-├── housing_model.joblib   # Trained model pipeline
-├── Try2.ipynb             # Full analysis and modelling notebook
+├── app.py                  # Streamlit dashboard (3 tabs)
+├── features.py             # Feature engineering (used by the notebook and the app)
+├── housing_model.joblib    # Trained model pipeline
+├── housing.csv             # Dataset (used by the Explore tab)
+├── test_results.csv        # Test-set predictions (used by the Model performance tab)
+├── feature_importance.csv  # Permutation importance (used by the Model performance tab)
+├── export_artifacts.py     # Code run at the end of the notebook to create the files above
+├── Try2.ipynb              # Full analysis and modelling notebook
 ├── requirements.txt
 └── README.md
 ```
@@ -82,7 +92,7 @@ The app opens at `http://localhost:8501`.
 
 ## Tech stack
 
-Python · pandas · NumPy · scikit-learn · Matplotlib / Seaborn · Streamlit · joblib
+Python · pandas · NumPy · scikit-learn · Plotly · Streamlit · joblib
 
 ## Dataset
 

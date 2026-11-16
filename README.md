@@ -8,7 +8,7 @@ A machine learning project that predicts the **median house value of a Californi
 - **📊 Explore the data:** price and income maps, distributions, house value by ocean proximity, income vs price, and a correlation heatmap.
 - **🎯 Model performance:** test-set RMSE / MAE / R², actual vs predicted, error distribution, an error map, error by region, and feature importance.
 
-🔗 **Live demo:** _add your Streamlit link here after deploying_
+🔗 **Live demo:** [_add your Streamlit link here after deploying_](https://housing-price-predictor-5d5dpt3krxqmkdhu4rnrh5.streamlit.app/)
 
 ---
 
@@ -97,10 +97,6 @@ Python · pandas · NumPy · scikit-learn · Plotly · Streamlit · joblib
 ## Dataset
 
 California Housing dataset, derived from the 1990 US Census (also available on [Kaggle](https://www.kaggle.com/datasets/camnugent/california-housing-prices)).
-
-## Working Model
-
-https://housing-price-predictor-5d5dpt3krxqmkdhu4rnrh5.streamlit.app/
 
 ## Author
 
